@@ -1,7 +1,191 @@
-﻿<!DOCTYPE html>
-<html>
-<body>
-    <h1> Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+<!DOCTYPE html>
+<html lang="en" class="has-sticky-footer">
+  <head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Rhona Filgueras</title>
+    <!-- Bootstrap -->
+	<!-- <link href="css/bootstrap-4.0.0.css" rel="stylesheet"> -->
+	<link href="css/bootstrap-4.2.1.css" rel="stylesheet" type="text/css">
+	<link href="css/home.css" rel="stylesheet" type="text/css">
+	  
+	<!-- Fonts -->
+	 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	 
+  </head>
+	
+	
+  <body>
+  	<!-- body code goes here -->
+    <div class="container-fluid">
+		
+	<!-- NAV Start -->
+		<nav class="navbar navbar-nav navbar-expand-lg nav_custom">	
+			
+		<!-- LOGO -->
+		<img src="images/SVGs/logo1.svg" id="logo" alt=""/>
+			
+		<!-- Hamburger Icon -->	
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> 
+			  <span class="navbar-toggler-icon"><img src="images/SVGs/hamberger.svg" id="hamburger_icon" alt=""/></span> 
+		  </button>
+		<!-- End of Hamburger Icon -->
+			
+		<!-- NAV bar links container -->	
+		  <div class="collapse navbar-collapse nav_custom_items no-gutter" id="navbarSupportedContent1">
+			    
+		    <ul class="navbar-nav ml-auto">
+				
+		<!-- NAV Links -->	
+			<a class="nav-link nav-item active" href="index.html">Home <span class="sr-only">(current)</span></a>
+		
+		<!-- Works Link -->
+			<div class="dropdown show">
+		    <a class="nav-item nav-link dropdown-toggle" href="works.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Works</a>
+				
+		<!-- Works Dropdown Items -->		
+			<div class="dropdown-menu" aria-labelledby="dropdownMenuLink" id="works_dropdown">
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="painting.html">Digital Painting</a>
+				<a class="dropdown-item" href="3d.html">3D</a>
+				<a class="dropdown-item" href="websites.html">Websites</a>
+				<div class="dropdown-divider"></div>
+				<a class="dropdown-item" href="works.html">&lsaquo; Back</a>
+			</div>
+			</div>
+				
+			<a class="nav-item nav-link" href="resume.html">Resume</a>
+	        </ul>
+		</div>
+	  </nav><!-- END of NAV -->  
+
+<!--=====================================-->
+	<!-- Start of Home Content -->
+    <div class="row" id="home">
+
+	<!-- Profile Pic -->
+		<div class="col-xl-4 offset-xl-1 mb-5 mt-5 col-lg-5 col-sm-8 offset-sm-2 offset-lg-0 offset-1 col-10 col-md-8 offset-md-2">
+			<img src="images/propic.png" class="img-fluid" alt="Placeholder image">
+		</div>
+
+	<!-- Title -->
+	  <div class="no-gutter col-xl-6 mb-4 mt-5 col-12 col-lg-7 col-md-10 offset-md-1 offset-lg-0 col-sm-10 offset-sm-1" id="elevator_pitch">
+		  	<div class="dropdown-divider"></div>	
+		  <h1 class="ml-1">3D Modeler | Illustrator | Front End Web Designer</h1>
+			<p class="ml-5 mb-3 mr-2">I design and create 3D models of characters &amp; environments and build websites from scratch. What can I do for you?</p>
+			
+		  <!-- painting Button -->
+			<button class="btn btn-dark ml-5" id="2D_work">
+			<a href="painting.html">2D Design &rsaquo;</a> 
+			</button>
+		
+		  <!-- Website.html Button -->
+			<button  class="btn btn-dark ml-2" id="site">
+			<a href="websites.html">Websites &rsaquo;</a>
+			</button>
+		  
+		   <!-- Website.html Button -->
+			<button  class="btn btn-dark ml-2" id="3D_work">
+			<a href="3d.html">3D Design &rsaquo;</a>
+			</button>
+		  
+		   
+		  <p class="ml-5"><small>or</small></p>
+		  
+		  <!-- Contact Button -->
+		  <button  class="btn btn-dark btn-lg ml-5" id="contact">
+			<a href="mailto:@rhona.filgueras1@gmail.com">
+				<i class="far fa-envelope mr-2"></i>Contact Me</a>
+		  </button>
+		  
+		  <!-- Website.html Button -->
+			<button  class="btn btn-dark ml-2 btn-lg" id="resume">
+				<a href="resume/Designer_resume_ver2(color7).pdf" download="Resume"><i class="fas fa-file-download mr-2"></i>Download My Resume</a>
+			</button>
+		  
+		  	<div class="dropdown-divider mt-4"></div>
+		</div> 
+	  <!-- End of Title -->	
+
+	</div> <!-- End of Home row -->
+	
+	<!-- About Content -->	
+	<div class="row" id="about">
+		<div class="no-gutter col-xl-5 col-lg-5 offset-md-0 col-md-12">
+			<h4 class="ml-4 mt-5">Where I've Been</h4>
+			<p class="ml-5">I was born and raised in the Philippines. There I learned the value of hard work, and getting the most of my day. I started making art when I was 4 years old. I tried to draw the power-puff girls. I remember my dad saying it looked horrible then he proceeded to draw sausages that morphed into a human and <strong>IT BLEW MY MIND</strong>. From then on, I have been sketching and painting. It wasn't until my family moved to the US back in 2016 that I started to transition to digital art, and 3D modeling.</p>
+			
+			<h4 class="ml-4 mt-2">What I've Done</h4>
+			<p class="ml-5">I decided to seize the opportunities present here in the US. The values I learned back home I applied have here. After I was hired for my part-time job, where I was awarded <b><i>Employee of the Month</i></b> four months after I was hired. At Harold Washington College, where I was awarded <b><i>Presidential Scholar</i></b> three consecutive semesters.</p>
+		</div>
+		
+		<!-- About image -->
+		<div class="no-gutter col-xl-7 col-lg-7">
+	    <img src="images/SVGs/about-me.svg" class="img-fluid mt-5" alt="Placeholder image"> 
+		</div>
+	</div>
+	
+		
+	<!-- Social Media Buttons -->
+	<div class="row">
+		<div class="mt-5 mb-4 mt-3col-sm-6 col-xl-7 col-lg-7 col-md-7 col-9 offset-1 offset-sm-0">
+			<h2>Follow Me On</h2>
+		</div>
+		
+	<!-- Social Media Icons -->		
+
+
+	<div class="no-gutter mb-4 mt-4 d-flex justify-content-end align-items-center offset-xl-6 col-xl-5 col-lg-5 offset-lg-7 offset-md-6 col-md-6 offset-sm-6 col-sm-6 offset-3 col-6">
+		<a href="https://www.artstation.com/rfilgueras1">
+			<img src="images/SVGs/artstation_icon.svg" class="img-fluid mr-2 mb-1 icon" alt="Placeholder image">
+		</a>
+		<a href="https://www.linkedin.com/in/rhona-jessica-filgueras-482882184/">
+			<img src="images/SVGs/linkedin_icon.svg" class="img-fluid mr-2 mb-1 icon" alt="Placeholder image">
+		</a>
+		<a href="https://www.behance.net/rhonajfilguer">
+			<img src="images/SVGs/behance_icon.svg" class="img-fluid mr-2 mb-1 icon" alt="Placeholder image">
+		</a>
+		<a href="https://www.saatchiart.com/rhonafilgueras">
+			<img src="images/SVGs/saatchi_art_icon.svg" class="img-fluid mr-2 mb-1 icon" alt="Placeholder image">
+		</a>
+		<a href="https://www.instagram.com/r.j.v.f/">
+			<img src="images/SVGs/instagram_icon.svg" class="img-fluid mr-2 mb-1 icon" alt="Placeholder image">
+		</a>
+	</div>
+		
+		
+	</div>
+  
+    <!-- End of Home Content -->
+<!--=====================================-->
+		
+<!--=====================================-->
+
+<div class="row align-items-center" id="footer">
+  <div class="col-lg-12 d-flex justify-content-between align-items-center col-xl-12 col-md-12 col-sm-12 col-12">
+	  &copy; COPYRIGHT 2019 RHONA FILGUERAS
+	  <a href="mailto:@rhona.filgueras1@gmail.com" class="email ml-5">
+		<i class="far fa-envelope mr-2"></i>rhona.filgueras1@gmail.com
+		</a>
+		<a href="tel:+1-312-366-4426"><i class="fas fa-phone mr-2"></i>(312) 366 4426</a>
+	</div>
+	
+</div>
+		
+  </div> <!-- End of Container -->
+    
+	  
+	  
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/popper.min.js"></script>
+  <!-- <script src="js/bootstrap-4.0.0.js"></script> -->
+  <script src="js/bootstrap-4.2.1.js"></script>
+	  
 </body>
 </html>
